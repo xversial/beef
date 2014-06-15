@@ -6,11 +6,11 @@
 # See the file 'doc/COPYING' for copying permission
 #
 
-gem "eventmachine", "1.0.3"
+gem "eventmachine", ">= 1.0.3"
 gem "thin"
-gem "sinatra", "1.4.2"
-gem "rack", "1.5.2"
-gem "em-websocket", "~> 0.3.6" # WebSocket support
+gem "sinatra", ">= 1.4.2"
+gem "rack", ">= 1.5.2"
+gem "em-websocket", ">= 0.3.6" # WebSocket support
 gem "uglifier", "~> 2.2.1"
 
 # Windows support
@@ -38,7 +38,7 @@ gem "dm-migrations"
 gem "msfrpc-client"        # Metasploit Integration extension
 #gem "twitter", ">= 5.0.0" # Twitter Notifications extension
 gem "rubyzip", ">= 1.0.0"
-gem "rubydns", "0.7.0"     # DNS extension
+gem "rubydns", "~> 0.7.0"     # DNS extension
 gem "geoip"                # geolocation support
 
 # For running unit tests
